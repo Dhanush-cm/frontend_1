@@ -1,4 +1,3 @@
-'use client';
 import { useState } from 'react';
 
 export default function Apply() {
@@ -145,3 +144,4 @@ export default function Apply() {
     </div>
   );
 }
+
