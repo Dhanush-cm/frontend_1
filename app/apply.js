@@ -4,8 +4,8 @@ import Head from 'next/head';
 import { useState } from 'react';
 
 export default function Apply() {
-  const [selectedRole, setSelectedRole] = useState('');
-  const [file, setFile] = useState(null);
+  const [setSelectedRole] = useState('');
+  const [setFile] = useState(null);
   const [experience, setExperience] = useState('');
   const [reason, setReason] = useState('');
   const [additionalInfo, setAdditionalInfo] = useState('');
